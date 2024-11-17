@@ -9,7 +9,6 @@ const ContentTop = () => {
     <div className="main-content-top">
         <div className="content-top-left">
             <button type="button" className="sidebar-toggler" onClick={() => toggleSidebar() }>
-                <img src={ iconsImgs.menu } alt="" />
             </button>
             <h3 className="content-top-title">Home</h3>
         </div>
